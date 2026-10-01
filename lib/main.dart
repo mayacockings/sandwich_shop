@@ -27,6 +27,7 @@ class App extends StatelessWidget {
                     onPressed: () => print('Add button pressed!'),
                     child: const Text('Add'),
                   ),
+                  const SizedBox(width: 16),
                   ElevatedButton(
                     onPressed: () => print('Remove button pressed!'),
                     child: const Text('Remove'),
