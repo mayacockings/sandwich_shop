@@ -35,8 +35,7 @@ void main() {
   });
 
   group('App smoke tests', () {
-    testWidgets('App displays MenuScreen as home',
-        (WidgetTester tester) async {
+    testWidgets('App displays MenuScreen as home', (WidgetTester tester) async {
       await tester.pumpWidget(const App());
 
       expect(find.byType(MenuScreen), findsOneWidget);
